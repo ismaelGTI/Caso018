@@ -17,10 +17,10 @@ jobs:
         uses: ./.github/InfraConfig            #Ejecuta la action custom de InfraConfig
 
       - name: Build
-        uses: echo "Building the project..."   #Ejecuta un echo en el build
+        run: echo "Building the project..."   #Ejecuta un echo en el build
       
       - name: Deploy
-        uses: echo "Deploying the project..."  #Ejecuta un echo en el deploy
+        run: echo "Deploying the project..."  #Ejecuta un echo en el deploy
       
       - name: Test
-        uses: echo "Testing the project..."    #Ejecuta un echo en el test
+        run: echo "Testing the project..."    #Ejecuta un echo en el test
