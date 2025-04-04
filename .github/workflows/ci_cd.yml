@@ -14,13 +14,13 @@ jobs:
         uses: actions/checkout@v2 #Descarga el código del repositorio en el runner
 
       - name: Configurar Infraestructura
-        uses: ./.github/InfraConfig/action.yml #Ejecuta la action custom de InfraConfig
+        uses: ./.github/InfraConfig            #Ejecuta la action custom de InfraConfig
 
       - name: Build
-        uses: echo "Building the project..." #Ejecuta un echo en el build
+        uses: echo "Building the project..."   #Ejecuta un echo en el build
       
       - name: Deploy
-        uses: echo "Deploying the project..." #Ejecuta un echo en el deploy
+        uses: echo "Deploying the project..."  #Ejecuta un echo en el deploy
       
       - name: Test
-        uses: echo "Testing the project..." #Ejecuta un echo en el test
+        uses: echo "Testing the project..."    #Ejecuta un echo en el test
