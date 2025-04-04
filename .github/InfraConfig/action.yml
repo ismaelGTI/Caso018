@@ -1,0 +1,5 @@
+name: "InfraConfig"
+description: "Configura la infraestructura en entorno aislado"
+runs:
+    using: "docker"         #La action custom utiliza docker
+    image: "Dockerfile"     #Dockerfile está en la misma carpeta que action.yml
